@@ -13,7 +13,12 @@ const Square = (props) => {
         props.setPlayer(!props.player);
     };
 
-    return <div className='square'>{props.squareValue}</div>
+    return <div 
+        className='square'
+        onClick={handleClick}
+    >
+        {props.squareValue}
+    </div>
 };
 
 export default Square;
