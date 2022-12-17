@@ -19,7 +19,7 @@ const Square = (props) => {
         className='square'
         onClick={handleClick}
     >
-        {props.squareValue === 'O' ? <img src='..\img\devcircle_1.png' alt='O'/> : ''}
+        {props.squareValue === 'O' ? <img src='../img/devcircle_1.png' alt='O'/> : ''}
         {props.squareValue === 'X' ? <img src='../img/swordsx_1.png' alt='X'/> : ''}
     </div>
 };
